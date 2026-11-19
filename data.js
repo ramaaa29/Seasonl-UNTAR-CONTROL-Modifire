@@ -47,7 +47,7 @@ export const negative = [
  mod('no-repairs','NO REPAIRS','修理禁止',2,'Items cannot be repaired through traders.','トレーダーによるアイテムの修理ができない。'),
  mod('loose-tongue','LOOSE TONGUE','おしゃべり',2,'Your character occasionally does a voice line after performing any action.','何らかの行動の後、ときどきキャラクターが声を発する。'),
  mod('three-fingered','THREE-FINGERED','不器用な手',2,'15% chance of dropping a magazine when reloading.','リロード時に15%の確率でマガジンを落とす。'),
- mod('no-love-from-fence','NO LOVE FROM FENCE','Fenceの不興',2,'Start with Fence reputation at −70.','Fenceの評判が−70で開始する。'),
+ mod('no-love-from-fence','NO LOVE FROM FENCE','Fenceの不興',2,'Start with Fence reputation at −7.0.','Fenceの評判が−7.0で開始する。'),
  mod('zero-to-hero','ZERO TO HERO','ゼロからの出発',2,'Start with a completely empty character, no bonus items.','キャラクターが何も所持しない状態で開始。ボーナスアイテムもない。'),
  mod('shaky-aim','SHAKY AIM','震える照準',3,'Aiming for more than 3 seconds causes hand tremors, pain, and tunnel vision.','3秒を超えて照準すると手の震え、痛み、視野狭窄が発生する。'),
  mod('no-scav-runs','NO SCAV RUNS','Scav出撃禁止',3,'Unable to play as a Scav.','Scavとして出撃できない。'),
