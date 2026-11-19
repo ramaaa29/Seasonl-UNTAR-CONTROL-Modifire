@@ -12,12 +12,12 @@ export const positive = [
  mod('lockpicker','LOCKPICKER','解錠の達人',-1,'Unlock the ability to pick padlocks on doors and containers using a multitool.','マルチツールでドアやコンテナの南京錠を解錠できる。'),
  mod('introvert','INTROVERT','内向的',-1,'Skill progression speed is increased by 30% when playing solo.','ソロプレイ時のスキル成長速度が30%増加する。'),
  mod('tap-rack-roll','TAP, RACK, ROLL','故障対処の達人',-1,'Start with the Troubleshooting skill at level 40. Malfunction clearing no longer requires inspection.','TroubleshootingスキルがLv40で開始。銃の故障解除時に点検が不要になる。'),
- mod('enhanced-container','ENHANCED SECURE CONTAINER','強化セキュアコンテナ',-2,'Start with Secure Container Epsilon with the ability to retain the FiR status of items inside even after death.','Epsilonコンテナを所持して開始。死亡後も中のアイテムのFiR（レイド内発見）状態を維持する。'),
+ mod('enhanced-container','ENHANCED SECURE CONTAINER','強化セキュアコンテナ',-2,'Start with Secure Container Epsilon X with the ability to retain the FiR status of items inside even after death.','強化されたEpsilon X コンテナを所持して開始。死亡後も中のアイテムのFiR（レイド内発見）状態を維持する。'),
  mod('fast-crafting','FAST CRAFTING','高速クラフト',-2,'Start with the Crafting skill at level 40. This skill’s progression speed is increased by 100%.','CraftingスキルがLv40で開始。このスキルの成長速度が100%増加する。'),
  mod('refs-builders',"REF’S BUILDERS",'Refの建設業者',-2,'Build Hideout zones with GP coins and Lega Medals.','GPコインとLegaメダルでハイドアウトの施設を建設できる。'),
  mod('kleptomaniac','KLEPTOMANIAC','収集癖',-2,'Start with the Search skill at level 40. This skill’s progression speed is increased by 100%.','SearchスキルがLv40で開始。このスキルの成長速度が100%増加する。'),
  mod('friends-extract',"FRIEND’S EXTRACT",'友人の脱出口',-2,'One additional Scav extract is available in every PMC raid (if the location has them).','PMCレイドでScav用脱出口が1か所追加で利用可能になる（該当する脱出口があるマップのみ）。'),
- mod('heavyweight','HEAVYWEIGHT','重量級',-2,'Movement speed is reduced by 5%. Maximum carry weight is increased by 30 kg (Overweight threshold increased by 5 kg).','移動速度が5%低下。最大携行重量が30kg増加し、過重量のしきい値が5kg増加する。'),
+ mod('heavyweight','HEAVYWEIGHT','重量級',-2,'Movement speed is reduced by 5%. Maximum carry weight is increased by 30 kg (Overweight threshold increased by 5 kg).','移動速度が5%低下。最大携行重量が30kg増加し、重量オーバーの基準値5kg増加する。'),
  mod('cold-blooded','COLD-BLOODED','冷血',-4,'Your in-raid body temperature is lower, making you significantly harder to see with thermal optics.','レイド中の体温が低くなり、サーマルスコープで大幅に発見されにくくなる。'),
  mod('advanced-hideout','ADVANCED HIDEOUT','充実したハイドアウト',-4,'Start with pre-built Hideout zones: Bitcoin Farm, Gym, Scav Case, and more.','Bitcoin Farm、Gym、Scav Caseなどの施設が建設済みの状態で開始する。'),
  mod('peacekeepers-insurance',"PEACEKEEPER’S INSURANCE",'Peacekeeperの保険',-4,'Peacekeeper provides gear insurance service for Euros.','Peacekeeperがユーロで装備の保険サービスを提供する。'),
@@ -38,8 +38,8 @@ export const positive = [
  mod('polyphagia','POLYPHAGIA','旺盛な食欲',-2,'Energy is consumed 45% slower.','エネルギー消費が45%遅くなる。'),
  mod('sturdy-bones','STURDY BONES','丈夫な骨',-2,'Limb fracture chance is decreased by 50%. Falling from heights deals 30% less damage.','手足の骨折確率が50%低下し、高所からの落下ダメージが30%減少する。'),
  mod('average','AVERAGE','平均的',-8,'All character skills are set to level 30 but cannot be leveled further.','全キャラクタースキルがLv30になり、それ以上成長しなくなる。'),
- mod('kappa-protocol','KAPPA PROTOCOL','Kappaプロトコル',-8,'Start with Secure container Kappa.','Kappaセキュアコンテナを所持して開始する。'),
- mod('lucky','LUCKY','幸運',-1,'Audentes fortuna iuvat!','幸運は勇者に味方する！（具体的な効果は画像に記載なし）')
+ mod('kappa-protocol','KAPPA PROTOCOL','Kappaプロトコル',-8,'Start with Secure container Kappa.','セキュアコンテナKappaを所持して開始する。'),
+ mod('lucky','LUCKY','幸運',-1,'Audentes fortuna iuvat!','幸運は勇者に味方する！（具体的な効果はわからない）')
 ];
 export const negative = [
  mod('extrovert','EXTROVERT','外向的',3,'Skill progression speed is decreased by 30% when playing solo.','ソロプレイ時のスキル成長速度が30%低下する。'),
