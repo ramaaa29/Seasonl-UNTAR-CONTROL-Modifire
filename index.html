@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ja">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="theme-color" content="#101618">
+ <meta name="description" content="Tarkov Season 2 UNTAR CONTROL — 日英対応のModifierビルドシミュレーター。ポイント計算、競合チェック、選択画像の保存。">
+ <title>Season 2 · UNTAR CONTROL — Modifier Planner</title>
+ <link rel="icon" href="icon.svg" type="image/svg+xml">
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <header class="masthead">
+  <a class="brand" href="./" aria-label="Season 2 UNTAR CONTROL">
+   <span class="emblem" aria-hidden="true">◎</span>
+   <span><span class="season">SEASON 2</span><strong>UNTAR <span>CONTROL</span></strong></span>
+  </a>
+  <div class="header-right"><span class="unofficial" data-t="unofficial">非公式ビルドプランナー</span>
+   <div class="language" role="tablist" aria-label="Language / 言語">
+    <button id="lang-ja" role="tab" aria-selected="true" tabindex="0" lang="ja">日本語</button>
+    <button id="lang-en" role="tab" aria-selected="false" tabindex="-1" lang="en">ENGLISH</button>
+   </div>
+  </div>
+ </header>
+ <main>
+  <div class="intro"><div class="profile-block"><a class="profile-image-link" href="https://x.com/ramaaaa29" target="_blank" rel="noopener noreferrer" aria-label="@ramaaaa29 on X"><img class="profile-image" src="assets/ramaaaa29.png" alt="@ramaaaa29 profile image" width="88" height="88"></a><div><p class="eyebrow">X / TWITTER</p><h1 class="profile-name"><a href="https://x.com/ramaaaa29" target="_blank" rel="noopener noreferrer">@ramaaaa29</a></h1><p class="intro-copy" data-t="intro">デバフでポイントを獲得し、バフに振り分ける。自分だけのレイドを組み立てよう。</p></div></div><span class="edition">SEASON 02<br><b>MODIFIER PLANNER</b></span></div>
+  <section class="budget-panel" aria-label="ポイント / Points">
+   <div class="balance"><span class="small-label" data-t="remaining">残りポイント</span><div><strong id="remaining">0</strong><span class="unit">PT</span><span id="status" class="status">PASS</span></div></div>
+   <div class="budget-middle"><div class="budget-numbers"><span><span class="dot red"></span><span data-t="earned">獲得</span> <b id="earned">+0</b></span><span><span class="dot green"></span><span data-t="spent">消費</span> <b id="spent">−0</b></span></div><div id="gauge" class="gauge" role="meter" aria-label="ポイント消費 / Point usage" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0"><span id="gauge-fill"></span></div><p id="budget-hint">デバフを選んでポイントを獲得</p></div>
+   <div class="budget-actions"><button id="download" class="primary-button" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M5 16v5h14v-5"/></svg><span data-t="save">選択を画像保存</span></button><button id="reset" class="text-button" disabled data-t="reset">すべて解除</button></div>
+  </section>
+  <div id="announcement" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
+  <section class="modifier-section global-section"><div class="section-heading"><div><span class="section-mark" aria-hidden="true">◎</span><h2>GLOBAL MODIFIERS <small data-t="global">全プレイヤー共通</small></h2></div><span class="section-meta" data-t="always">常時有効 · 6 MODIFIERS</span></div><div id="global-cards" class="card-grid"></div></section>
+  <div class="personal-heading"><h2 data-t="personal">PERSONAL LOADOUT</h2><span data-t="instructions">クリックで選択・解除 / 同時選択不可の組み合わせはロック</span></div>
+  <section class="modifier-section positive-section"><div class="section-heading"><div><span class="section-mark" aria-hidden="true">＋</span><h2>PERSONAL POSITIVE <small data-t="positive">バフ · ポイントを消費</small></h2></div><span class="section-meta"><span id="positive-count">0</span> / 31 <span data-t="selected">選択中</span></span></div><div id="positive-cards" class="card-grid"></div></section>
+  <section class="modifier-section negative-section"><div class="section-heading"><div><span class="section-mark" aria-hidden="true">−</span><h2>PERSONAL NEGATIVE <small data-t="negative">デバフ · ポイントを獲得</small></h2></div><span class="section-meta"><span id="negative-count">0</span> / 25 <span data-t="selected">選択中</span></span></div><div id="negative-cards" class="card-grid"></div></section>
+  <footer><div><strong>UNTAR CONTROL</strong><p data-t="footer">Escape from Tarkovの非公式ファンツール。Battlestate Gamesとは関係ありません。</p></div><p data-t="source">効果・ポイントは提供画像に基づきます。日本語は非公式訳です。<br>シーズン開始前の調整により内容が変更される場合があります。</p></footer>
+ </main>
+ <script type="module" src="app.js"></script>
+</body>
+</html>
